@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A05B91222D9E2BB02B1BD4B /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 4DFE6C298F68F712B2F40FAB /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		74FD51DE3006B16200424A6A /* Pinbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -13,6 +17,8 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		74FD51E03006B16200424A6A /* Pinbox */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = Pinbox;
 			sourceTree = "<group>";
 		};
@@ -23,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A05B91222D9E2BB02B1BD4B /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,7 @@
 			);
 			name = Pinbox;
 			packageProductDependencies = (
+				4DFE6C298F68F712B2F40FAB /* KeyboardShortcuts */,
 			);
 			productName = Pinbox;
 			productReference = 74FD51DE3006B16200424A6A /* Pinbox.app */;
@@ -94,6 +102,9 @@
 			);
 			mainGroup = 74FD51D53006B16200424A6A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				25961A1444C7DA768B8F6E89 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 74FD51DF3006B16200424A6A /* Products */;
 			projectDirPath = "";
@@ -259,6 +270,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +303,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25961A1444C7DA768B8F6E89 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DFE6C298F68F712B2F40FAB /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25961A1444C7DA768B8F6E89 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74FD51D63006B16200424A6A /* Project object */;
 }

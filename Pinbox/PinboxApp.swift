@@ -1,17 +1,14 @@
-//
-//  PinboxApp.swift
-//  Pinbox
-//
-//  Created by Jeevith on 7/14/26.
-//
-
 import SwiftUI
+import SwiftData
+import KeyboardShortcuts
 
 @main
 struct PinboxApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView()
         }
     }
 }
