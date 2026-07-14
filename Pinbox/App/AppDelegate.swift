@@ -26,7 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         
         if let button = statusItem?.button {
-            button.image = NSImage(named: "MenuBarIcon")
+            button.image = NSImage(systemSymbolName: "doc.on.clipboard", accessibilityDescription: "Pinbox")
             button.action = #selector(togglePopover)
             button.target = self
         }
