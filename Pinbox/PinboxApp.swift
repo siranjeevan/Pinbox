@@ -7,8 +7,10 @@ struct PinboxApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
-        Settings {
-            EmptyView()
+        MenuBarExtra("Pinbox", systemImage: "doc.on.clipboard") {
+            PopoverContentView()
+                .modelContainer(PinboxSchema.container)
         }
+        .menuBarExtraStyle(.window)
     }
 }
