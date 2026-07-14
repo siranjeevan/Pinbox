@@ -1,0 +1,79 @@
+name: Release Pinbox
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: macos-15
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build Application
+        run: |
+          xcodebuild -project Pinbox.xcodeproj \
+                     -scheme Pinbox \
+                     -sdk macosx \
+                     -configuration Release \
+                     clean build \
+                     CODE_SIGNING_ALLOWED=NO
+
+      - name: Package App into DMG
+        run: |
+          # Locate built app
+          APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "Pinbox.app" -type d -path "*/Build/Products/Release/*" | head -n 1)
+          if [ -z "$APP_PATH" ]; then
+            echo "Error: Could not locate built app."
+            exit 1
+          fi
+          
+          # Create temporary folder for DMG creation
+          mkdir -p dmg_root
+          cp -R "$APP_PATH" dmg_root/
+          
+          # Install create-dmg utility
+          brew install create-dmg
+          
+          # Create DMG
+          create-dmg \
+            --volname "Pinbox Installation" \
+            --volicon "dmg_root/Pinbox.app/Contents/Resources/AppIcon.icns" \
+            --window-pos 200 120 \
+            --window-size 600 400 \
+            --icon-size 100 \
+            --icon "Pinbox.app" 175 190 \
+            --hide-extension "Pinbox.app" \
+            --app-drop-link 425 190 \
+            "Pinbox.dmg" \
+            "dmg_root/"
+            
+          # Calculate SHA256
+          shasum -a 256 Pinbox.dmg > shasum.txt
+          echo "SHA256=$(cat shasum.txt | awk '{print $1}')" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            Pinbox.dmg
+            shasum.txt
+          body: |
+            ## Pinbox ${{ github.ref_name }}
+            
+            ### SHA-256 Checksum
+            ```
+            ${{ env.SHA256 }}
+            ```
+            
+            Install via Homebrew:
+            ```bash
+            brew install --cask myusername/tap/pinbox
+            ```
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
