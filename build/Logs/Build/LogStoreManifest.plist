@@ -5,6 +5,49 @@
 	<key>logFormatVersion</key>
 	<integer>12</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>585765C5-AF2B-4B8B-8705-551A20F8531D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>585765C5-AF2B-4B8B-8705-551A20F8531D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Pinbox project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Pinbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Pinbox with scheme Pinbox</string>
+			<key>timeStartedRecording</key>
+			<real>805800667.66998303</real>
+			<key>timeStoppedRecording</key>
+			<real>805800672.23945296</real>
+			<key>title</key>
+			<string>Building project Pinbox with scheme Pinbox</string>
+			<key>uniqueIdentifier</key>
+			<string>585765C5-AF2B-4B8B-8705-551A20F8531D</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
