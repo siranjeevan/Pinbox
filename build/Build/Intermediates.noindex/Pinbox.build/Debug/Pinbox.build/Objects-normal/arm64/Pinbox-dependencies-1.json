@@ -247,6 +247,13 @@
     "moduleName" : "Carbon"
   },
   {
+    "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/Cocoa.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/Jeevith\/Jeevith\/Pinbox\/build\/ModuleCache.noindex\/Cocoa-9WN8Z3YTTD7XK7F84IH9QXZ1F.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Cocoa"
+  },
+  {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/System\/Library\/Frameworks\/ColorSync.framework\/Modules\/module.modulemap",
     "clangModulePath" : "\/Users\/Jeevith\/Jeevith\/Pinbox\/build\/ModuleCache.noindex\/ColorSync-BLKEYH0CQJMYINZDH0D19PHKQ.pcm",
     "isBridgingHeaderDependency" : false,

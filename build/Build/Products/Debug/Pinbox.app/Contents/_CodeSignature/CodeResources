@@ -163,7 +163,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			YBD7/wjtjE5UcVmJXvyau14weWo=
+			SQq9Wo3F4Eh2mNt4HKOD3IZ1n/c=
 			</data>
 			<key>requirement</key>
 			<string>identifier "Pinbox.debug" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: smartjeevith2k@gmail.com (YFK42YS78Q)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
