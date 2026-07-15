@@ -2,7 +2,17 @@ import SwiftUI
 import AppKit
 import SwiftData
 
+@main
 class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
+    
+    static var sharedDelegate: AppDelegate?
+    
+    static func main() {
+        let app = NSApplication.shared
+        sharedDelegate = AppDelegate()
+        app.delegate = sharedDelegate
+        app.run()
+    }
     var statusItem: NSStatusItem?
     var popover: NSPopover?
     var eventMonitor: Any?
@@ -27,8 +37,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
             if let image = NSImage(systemSymbolName: "doc.on.clipboard", accessibilityDescription: "Pinbox") {
                 image.isTemplate = true
                 button.image = image
+                button.title = "📌 Pinbox" // FORCE text to appear
+                button.imagePosition = .imageLeft
             } else {
-                button.title = "Pinbox"
+                button.title = "📌 Pinbox"
             }
             button.action = #selector(togglePopover)
             button.target = self
