@@ -2,17 +2,10 @@ import SwiftUI
 import AppKit
 import SwiftData
 
-@main
 class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
     
     static var sharedDelegate: AppDelegate?
-    
-    static func main() {
-        let app = NSApplication.shared
-        sharedDelegate = AppDelegate()
-        app.delegate = sharedDelegate
-        app.run()
-    }
+
     var statusItem: NSStatusItem?
     var popover: NSPopover?
     var eventMonitor: Any?
