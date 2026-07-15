@@ -1,0 +1,23 @@
+{
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Services/StartupService.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StartupService.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StartupService.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StartupService.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StartupService.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StartupService.swiftdeps"
+  },
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Services/StorageService.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StorageService.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StorageService.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StorageService.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StorageService.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/StorageService.swiftdeps"
+  },
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Views/ClipboardHistory/ClipboardHistoryView.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardHistoryView.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardHistoryView.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardHistoryView.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardHistoryView.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardHistoryView.swiftdeps"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Models/ClipboardItem.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardItem.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardItem.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardItem.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardItem.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardItem.swiftdeps"
+  },
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Models/Folder.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Folder.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Folder.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Folder.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Folder.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Folder.swiftdeps"
+  },
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Models/Snippet.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Snippet.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Snippet.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Snippet.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Snippet.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/Snippet.swiftdeps"
+  }
+}

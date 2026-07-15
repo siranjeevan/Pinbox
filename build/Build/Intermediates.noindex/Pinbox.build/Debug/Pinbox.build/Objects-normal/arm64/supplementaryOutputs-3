@@ -1,0 +1,23 @@
+{
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Services/ClipboardService.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardService.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardService.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardService.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardService.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/ClipboardService.swiftdeps"
+  },
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Services/HotkeyService.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/HotkeyService.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/HotkeyService.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/HotkeyService.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/HotkeyService.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/HotkeyService.swiftdeps"
+  },
+  "/Users/Jeevith/Jeevith/Pinbox/Pinbox/Services/SearchService.swift" : {
+    "const-values" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/SearchService.swiftconstvalues",
+    "dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/SearchService.d",
+    "diagnostics" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/SearchService.dia",
+    "object" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/SearchService.o",
+    "swift-dependencies" : "/Users/Jeevith/Jeevith/Pinbox/build/Build/Intermediates.noindex/Pinbox.build/Debug/Pinbox.build/Objects-normal/arm64/SearchService.swiftdeps"
+  }
+}
